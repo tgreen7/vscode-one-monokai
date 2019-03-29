@@ -2,7 +2,7 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#282c34",
+        "background": "#1f232b",
         "foreground": "#abb2bf",
         "findHighlight": "#FFE792",
         "findHighlightForeground": "#000000",
@@ -17,10 +17,7 @@
     },
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "string.comment"
-      ],
+      "scope": ["comment", "string.comment"],
       "settings": {
         "foreground": "#676f7d",
         "fontStyle": "italic"
@@ -63,10 +60,7 @@
     },
     {
       "name": "Embeded String Begin and End",
-      "scope": [
-        "string.embedded.begin",
-        "string.embedded.end"
-      ],
+      "scope": ["string.embedded.begin", "string.embedded.end"],
       "settings": {
         "foreground": "#c678dd"
       }
@@ -75,7 +69,7 @@
       "name": "Embeded String",
       "scope": "string.embedded",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#95c673"
       }
     },
     {
@@ -87,10 +81,7 @@
     },
     {
       "name": "User-defined constant",
-      "scope": [
-        "constant.character",
-        "constant.other"
-      ],
+      "scope": ["constant.character", "constant.other"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -104,10 +95,7 @@
     },
     {
       "name": "Variable",
-      "scope": [
-        "variable.readwrite",
-        "variable.readwrite.other.block"
-      ],
+      "scope": ["variable.readwrite", "variable.readwrite.other.block"],
       "settings": {
         "foreground": "#61afef"
       }
@@ -166,10 +154,7 @@
     },
     {
       "name": "Other variable",
-      "scope": [
-        "variable.other.property",
-        "variable.other.block"
-      ],
+      "scope": ["variable.other.property", "variable.other.block"],
       "settings": {
         "foreground": "#abb2bf"
       }
@@ -178,17 +163,14 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#95c673"
       }
     },
     {
       "name": "Function name",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#95c673"
       }
     },
     {
@@ -208,12 +190,9 @@
     },
     {
       "name": "Builtin Functions",
-      "scope": [
-        "function.support.builtin",
-        "function.support.core"
-      ],
+      "scope": ["function.support.builtin", "function.support.core"],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#95c673"
       }
     },
     {
@@ -229,10 +208,7 @@
     },
     {
       "name": "Tag Class and ID",
-      "scope": [
-        "entity.name.tag.class",
-        "entity.name.tag.id"
-      ],
+      "scope": ["entity.name.tag.class", "entity.name.tag.id"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -241,7 +217,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#95c673"
       }
     },
     {
@@ -253,10 +229,7 @@
     },
     {
       "name": "Library class/type",
-      "scope": [
-        "support.type",
-        "support.variable"
-      ],
+      "scope": ["support.type", "support.variable"],
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -289,7 +262,7 @@
         "support.constant.sass"
       ],
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#95c673"
       }
     },
     {
@@ -318,12 +291,7 @@
     },
     {
       "name": "StyleSheet Unit",
-      "scope": [
-        "unit.css",
-        "unit.scss",
-        "unit.less",
-        "unit.sass"
-      ],
+      "scope": ["unit.css", "unit.scss", "unit.less", "unit.sass"],
       "settings": {
         "foreground": "#c678dd"
       }
@@ -379,10 +347,7 @@
     },
     {
       "name": "diff.header",
-      "scope": [
-        "meta.diff",
-        "meta.diff.header"
-      ],
+      "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
         "foreground": "#75715E"
       }
@@ -477,7 +442,7 @@
       "name": "Markdown: Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#95c673"
       }
     },
     {
@@ -502,10 +467,17 @@
         "fontStyle": "bold",
         "foreground": "#ffffff"
       }
-    }
+    },
+    {
+			"name": "this.self",
+			"scope": "variable.language",
+			"settings": {
+        "foreground": "#dd5a65"
+			}
+		}
   ],
   "colors": {
-    "activityBar.background": "#2F333D",
+    "activityBar.background": "#23252e",
     "activityBar.foreground": "#D7DAE0",
     "activityBarBadge.background": "#528bff",
     "activityBarBadge.foreground": "#F8FAFD",
@@ -513,11 +485,11 @@
     "dropdown.background": "#1d1f23",
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.border": "#181A1F",
-    "editor.background": "#282c34",
+    "editor.background": "#1f232b",
     "editorError.foreground": "#c24038",
     "editorRuler.foreground": "#484848",
-    "editor.lineHighlightBackground": "#383E4A",
-    "editor.selectionBackground": "#3E4451",
+    "editor.lineHighlightBackground": "#30363c",
+    "editor.selectionBackground": "#30363c",
     "editorCursor.foreground": "#f8f8f0",
     "editor.editor.findMatchBackground": "#42557B",
     "editor.findMatchHighlightBackground": "#314365",
@@ -536,7 +508,7 @@
     "input.background": "#1d1f23",
     "list.activeSelectionBackground": "#2c313a",
     "list.activeSelectionForeground": "#d7dae0",
-    "list.focusBackground": "#383E4A",
+    "list.focusBackground": "#30363c",
     "list.hoverBackground": "#292d35",
     "list.highlightForeground": "#C5C5C5",
     "list.inactiveSelectionBackground": "#2c313a",
@@ -546,18 +518,18 @@
     "scrollbarSlider.activeBackground": "#747D9180",
     "scrollbarSlider.hoverBackground": "#5A637580",
     "sideBar.background": "#21252b",
-    "sideBarSectionHeader.background": "#282c34",
+    "sideBarSectionHeader.background": "#1f232b",
     "statusBar.background": "#21252B",
     "statusBar.foreground": "#9da5b4",
     "statusBarItem.hoverBackground": "#2c313a",
     "statusBar.noFolderBackground": "#21252B",
     "statusBar.debuggingBackground": "#21252B",
-    "tab.activeBackground": "#383E4A",
+    "tab.activeBackground": "#30363c",
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#21252B",
-    "titleBar.activeBackground": "#282c34",
+    "titleBar.activeBackground": "#1f232b",
     "titleBar.activeForeground": "#9da5b4",
-    "titleBar.inactiveBackground": "#282C34",
+    "titleBar.inactiveBackground": "#1f232b",
     "titleBar.inactiveForeground": "#6B717D"
   },
   "name": "One Monokai"
