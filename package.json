@@ -17,7 +17,7 @@
       {
         "label": "One Monokai Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneMonokai-color-theme.json"
+        "path": "./themes/OneMonokaiDark-color-theme.json"
       }
     ]
   },
