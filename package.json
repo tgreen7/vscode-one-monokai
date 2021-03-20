@@ -18,6 +18,11 @@
         "label": "One Monokai Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/OneMonokaiDark-color-theme.json"
+      },
+      {
+        "label": "One Monokai Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneMonokaiDarker-color-theme.json"
       }
     ]
   },
