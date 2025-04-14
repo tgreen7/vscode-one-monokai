@@ -1,5 +1,6 @@
 {
   "name": "One Monokai Dark",
+  // "semanticHighlighting": true,
   "semanticTokenColors": {
     "annotation:dart": {
       "foreground": "#d19a66"
@@ -29,7 +30,7 @@
       "foreground": "#d19a66"
     },
     "variable.defaultLibrary": {
-      "foreground": "#e5c07b"
+      "foreground": "#61afef"
     }
   },
   "tokenColors": [
@@ -347,7 +348,7 @@
       "name": "js/ts module",
       "scope": "support.module.node,support.type.object.module,support.module.node",
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#56b6c2"
       }
     },
     {
@@ -595,6 +596,38 @@
         "meta.require",
         "support.function.any-method",
         "variable.function"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "entity.name.type.namespace",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "support.class, entity.name.type.class",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class.identifier.namespace.type",
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": [
+        "entity.name.class",
+        "variable.other.class.js",
+        "variable.other.class.ts"
       ],
       "settings": {
         "foreground": "#61afef"
